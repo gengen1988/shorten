@@ -13,5 +13,5 @@ _.each(db, function(url, key) {
 });
 
 app.get('/', function(req, res) {
-  res.sendfile('index.html');
+  res.sendFile('index.html');
 });
