@@ -11,3 +11,7 @@ _.each(db, function(url, key) {
     res.redirect(url);
   });
 });
+
+app.get('/', function(req, res) {
+  res.sendfile('index.html');
+});
