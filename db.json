@@ -1,5 +1,8 @@
 {
   "nhw360-android": "http://zhushou.360.cn/detail/index/soft_id/3007124",
   "nhw360-ios": "/",
-  "nhw360": "http://www.nhw360.com"
+  "nhw360": [
+    {"os.name": "Android", "target": "http://www.nhw360.com"},
+    {"os.name": "iOS", "target": "http://www.nhw360.com"}
+  ]
 }
